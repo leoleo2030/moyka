@@ -1,0 +1,300 @@
+*{
+  margin: 0;
+}
+nav img{
+  width: 80px;
+}
+
+.container{
+  margin: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+  color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  padding: 15px 50px;
+  align-items: center;
+}
+
+
+header{
+  height: 700px;
+  background: url(images/car.jpg);
+  width: 100%;
+}
+
+.main_text{
+  display: flex;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  justify-content: center;
+  font-size: 60px; 
+  color:white;
+  margin: 10px;
+}
+
+.speed{
+  display: flex;
+  padding: 15px 50px;
+  justify-content: center;
+  width: 75px;
+}
+
+.desc_photo{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.point{
+  height: 80px;
+}
+
+.money{
+  height: 80px;
+}
+
+.star{
+  height: 80px;
+}
+
+.rocket{
+    height: 80px;
+}
+
+
+
+
+
+.under_icon{
+  color:white;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.point__it{
+ text-align: center;
+}
+
+.star__it{
+  text-align: center;
+}
+
+.rocket__it{
+  text-align: center;
+}
+
+.money__it{
+  text-align: center;
+}
+
+.button{
+  display:flex;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0f13;
+  border: 3px solid white;
+  width:320px;
+  height:52px;
+  color:white;
+  margin-top: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: #0f0f10;
+}
+
+.button__click{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_text{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.contacts{
+  padding-top: 30px;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.contacts h3{
+  color: black;
+}
+
+
+.contacts p{
+  color: black;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+.contacts a{
+  color: black;
+}
+
+
+
+
+.video_car{
+  padding-top: 10px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+.price_container{
+  padding-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  color:white;
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  
+}
+
+.price{
+  font-size: 40 px;
+}
+
+.time_under_price{
+  color: gray;
+  padding-top: 8px;
+}
+
+.text_on_price{
+  padding: 40px 0;
+}
+
+.text_under_price{
+  padding-bottom: 12px;
+}
+
+.line{
+  color: gray;
+}
+
+.job_under_price{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 4px;
+  
+}
+
+.timer_under_price{
+  padding-top: 8px; 
+}
+
+.price_element1{
+  background-image: url(images/1moika.jpg);
+ 
+  background-size: 100%;
+ 
+}
+
+.price_element2{
+  background-image: url(images/2moika.jpg);
+  background-size: 100%;
+
+  
+}
+
+.price_element3{
+  background-image: url(images/3moika.jpg);
+  background-size: 100%;
+
+ 
+}
+
+.price_element4{
+  background-image: url(images/4moika.jpg);
+  background-size: 100%;
+
+  
+}
+
+.job_under_price{
+  padding: 12px 0;
+}
+
+
+form {
+  color: black;
+  width: 30%;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px auto;
+}
+form input {
+  width: calc(100% - 20px);
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  background: transparent;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+form input::placeholder {
+  color: black;
+}
+form p {
+  width: 100%;
+  margin: 20px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.about{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.order {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  background-color: #0f0f13;
+  border: 3px solid white;
+  width:320px;
+  height:52px;
+  color:white;
+  margin-top: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.order:hover{
+  background-color: #0f0f10;
+}
+
+footer{
+  height:100px;
+}
